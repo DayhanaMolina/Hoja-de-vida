@@ -1,0 +1,212 @@
+body {
+    background-color: white;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #d1abaf;
+}
+
+h1 {
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header h4 {
+    margin-left: 40%;
+    color: #f400a1;
+}
+
+header p {
+    margin-left: 40%;
+}
+
+img {
+    float: left;
+    margin: 25px 150px;
+    border-radius: 50%;
+}
+
+.contenedor {
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.perfil {
+    background-color: #d1abaf;
+    width: 100%;
+    height: 150px;
+    grid-row: 1/2;
+    padding-left: 5px;
+}
+
+.formacion {
+    background-color: #d1abaf;
+    width: 100%;
+    height: 150px;
+    grid-row: 2 / 3;
+    padding-left: 5px;
+}
+
+.logros {
+    background-color: #d1abaf;
+    width: 100%;
+    height: 150px;
+    grid-row: 3/4;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.experiencia {
+    background-color: #d1abaf;
+    width: 100%;
+    height: 150px;
+    grid-row: 4/4;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+.habilidades {
+    background-color: #d1abaf;
+    width: 100%;
+    height: 650px;
+    grid-row: 1/5;
+    padding-right: 3px;
+    padding-left: 2px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #d1abaf;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+footer h3 {
+    color: #f400a1;
+}
+
+.contenedor h3 {
+    color: #f400a1;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.logos {
+    display: flex;
+    border-radius: 100%;
+}
+
+.primera {
+    width: 30px;
+    height: 30px;
+}
+
+.divexperienca {
+    display: flex;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 8px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c29eb9;
+    padding-left: 30px;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: width;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 390px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: white;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #110d10;
+}
+
+.formulario h3 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: #f400a1;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
